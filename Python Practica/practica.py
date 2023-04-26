@@ -1,4 +1,6 @@
 """
+#Ejercicios tipos de datos simples
+
 
 #Ejercicio_1
 
@@ -83,7 +85,6 @@ peso = (payasos * 112) + (muñecas * 75)
 
 print("El peso total del paquete será de: ", peso, "Kg")
 
-"""
 
 #Ejercicio_11
 
@@ -96,3 +97,16 @@ terceraño = segundoaño * ( 1 + 0.04)
 print("Su ahorro en el primer año será de" + " " + str(round(primeraño, 2))) 
 print("Su ahorro en el segundo año será de" + " " + str(round(segundoaño, 2))) 
 print("Su ahorro en el tercer año será de" + " " + str(round(terceraño, 2))) 
+
+
+#Ejercicio_12
+
+pannodia = float(input("Inserte la cantidad de barras de pan que sean del dia anterior: "))
+preciobarrapan = pannodia * 3.49 
+descuentoporcentaje = 0.6 
+descuento =  preciobarrapan * (1 - descuentoporcentaje) 
+
+print("El coste total de la barra de pan sin descuento es de", "$" + str(preciobarrapan), ",El descuento de la barra de pan seria del 60% y el coste final será de" + " " + "$"+ str(round(descuento, 2,)))
+
+"""
+
