@@ -87,3 +87,12 @@ print("El peso total del paquete será de: ", peso, "Kg")
 
 #Ejercicio_11
 
+dinerocuenta = float(input("Ingrese la cantidad de dinero depositada en su cuenta: "))
+
+primeraño = dinerocuenta * ( 1 + 0.04)
+segundoaño = primeraño * ( 1 + 0.04)
+terceraño = segundoaño * ( 1 + 0.04)
+
+print("Su ahorro en el primer año será de" + " " + str(round(primeraño, 2))) 
+print("Su ahorro en el segundo año será de" + " " + str(round(segundoaño, 2))) 
+print("Su ahorro en el tercer año será de" + " " + str(round(terceraño, 2))) 
