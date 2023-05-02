@@ -110,3 +110,29 @@ print("El coste total de la barra de pan sin descuento es de", "$" + str(preciob
 
 """
 
+"""
+#Ejercicios de cadenas 
+
+#Ejercicio_1
+
+nombreusuario = input("Digite su nombre: ")
+numero = int(input("digite un numero: "))
+print((nombreusuario + "\n") * numero)
+
+#Ejercicio_2
+
+nombreusuario = input("Digite su nombre completo: ")
+print(nombreusuario.lower(),"\n", nombreusuario.upper(), "\n", nombreusuario.title())
+
+#Ejercicio_3
+
+nombreusuario = input("¿cual es su nombre?: ")
+numero = len(nombreusuario)
+print(nombreusuario, "tiene", numero, "letras")
+
+"""
+
+#Ejercicio_4
+
+
+
