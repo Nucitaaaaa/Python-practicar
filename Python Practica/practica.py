@@ -1,4 +1,4 @@
-"""
+
 #Ejercicios tipos de datos simples
 
 
@@ -108,9 +108,7 @@ descuento =  preciobarrapan * (1 - descuentoporcentaje)
 
 print("El coste total de la barra de pan sin descuento es de", "$" + str(preciobarrapan), ",El descuento de la barra de pan seria del 60% y el coste final será de" + " " + "$"+ str(round(descuento, 2,)))
 
-"""
 
-"""
 #Ejercicios de cadenas 
 
 #Ejercicio_1
@@ -130,7 +128,7 @@ nombreusuario = input("¿cual es su nombre?: ")
 numero = len(nombreusuario)
 print(nombreusuario, "tiene", numero, "letras")
 
-"""
+
 
 #Ejercicio_4
 
