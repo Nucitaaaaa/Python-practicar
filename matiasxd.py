@@ -1,15 +1,12 @@
 
-#var_menu
+
 menu = 0
 
-#Bucle_menu
 while menu == 0:
     
-    #Instrucciones
     print("Calculadora Basica\n")
     print("Digite:\n\n1 Para suma\n2 Para resta\n3 Para multiplicación\n4 Para división\n5 Para division residual\n9 Para salir de la calculadora\n")
 
-    #fin_bucle_si
     operacion = int(input("Digite el numero de la operación a realizar: "))
     if operacion == 9:
         print("Gracias por usar esta calculadora")
@@ -18,7 +15,6 @@ while menu == 0:
         print("\nDigite un numero de operación valido")
         print(" ")
 
-    #operaciones
     num1 = int(input("Digite el primer numero: "))
     num2 = int(input("Digite el segundo numero: "))
 
