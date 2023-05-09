@@ -1,3 +1,5 @@
+"""
+#Ejercicio_sebastian
 
 print("Bienvenido, este programa tiene el fin de mostrarle algunas combinaciones de colores\n")
 
@@ -14,3 +16,37 @@ elif color == "R" and color2 == "AM":
     print("La combinación de estos colores dará como resultado el color Naranja")
 else:
     print("seleccione una combinación valida")
+
+"""
+#Ejercicio_edad
+
+edad = int(input("Digite su edad: "))
+
+if edad < 17 > 0:
+    print("No puede salir")
+elif edad > 17 < 29:
+    print("Puede salir dos horas")
+elif edad > 29:
+    print("Puede salir y volver cuando quiera")
+else:
+    print("Digite una edad correcta")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
