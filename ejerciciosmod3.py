@@ -22,9 +22,9 @@ else:
 
 edad = int(input("Digite su edad: "))
 
-if edad < 17 > 0:
+if edad > 0 and edad < 17:
     print("No puede salir")
-elif edad > 17 < 29:
+elif edad > 17 and edad < 29:
     print("Puede salir dos horas")
 elif edad > 29:
     print("Puede salir y volver cuando quiera")
