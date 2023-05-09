@@ -17,7 +17,7 @@ elif color == "R" and color2 == "AM":
 else:
     print("seleccione una combinación valida")
 
-"""
+
 #Ejercicio_edad
 
 edad = int(input("Digite su edad: "))
@@ -31,7 +31,7 @@ elif edad > 29:
 else:
     print("Digite una edad correcta")
 
-
+"""
 
 
 
