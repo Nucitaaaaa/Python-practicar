@@ -30,5 +30,33 @@ elif edad > 31:
     print("Puede salir xd")
 else:
     print("error")
-"""    
 
+sueldo = float(input("Digite su sueldo actual: "))
+if sueldo < 1000:
+    bonificacion = sueldo * 10 / 100
+    print("Tiene una bonificación de $" + str(bonificacion), "por lo que su sueldo será de $" + str(sueldo + bonificacion))
+elif sueldo > 1000 and sueldo < 2000:
+    bonificacion = sueldo * 20 / 100
+    print("Su sueldo será de $" + str(sueldo - bonificacion))
+elif sueldo > 2000 and sueldo < 5000:
+    bonificacion = sueldo * 20 / 100
+    print("Su sueldo será de $" + str(sueldo - bonificacion))
+
+
+for i in range(1,31):
+    if i % 2 != 0:
+        print(i)
+
+i = 2
+
+while i < 32:
+    print(i)
+    i += 2
+
+"""
+
+
+for i in range(1,21):
+    print("El numero es", i)
+    i += 1
+print("La suma de todos será:", i*10)
