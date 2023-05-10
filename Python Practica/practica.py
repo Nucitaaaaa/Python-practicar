@@ -1,4 +1,4 @@
-
+"""
 #Ejercicios tipos de datos simples
 
 
@@ -129,8 +129,49 @@ numero = len(nombreusuario)
 print(nombreusuario, "tiene", numero, "letras")
 
 
+#Ejercicio_4
+
+#Ejercicios_condicionales
+
+
+#Ejercicios_bucles
+
+#Ejercicio_1
+
+palabra = str(input("Escriba una palabra: "))
+
+acum = 0
+
+while acum < 10:
+    print(palabra)
+    acum += 1
+
+
+#Ejercicio_2
+
+edad = int(input("digite su edad: "))
+
+for i in range(0,edad + 1):
+    print("los años que ha cumplido: ")
+    print(i)
+
+#Ejercicio_3
+
+num = int(input("digite un numero positivo: "))
+
+for i in range (1,num):
+    if i % 2 != 0:
+        print(i,end=",")
+
 
 #Ejercicio_4
 
+num = int(input("digite un numero positivo: "))
 
+for i in range (num,-1,-1):
+    print(i, end=",")
+
+"""
+
+#Ejercicio_5
 
