@@ -6,9 +6,6 @@ op = 5 * b ** 4 + 4 * b ** 2 - (b ** 3 - 5 ** 2)
 
 print(op)
 
-
-
-
 x = int(input("Digite un numero: "))
 
 op = 7 * (x ** 4) / 2 * (x ** 2)
