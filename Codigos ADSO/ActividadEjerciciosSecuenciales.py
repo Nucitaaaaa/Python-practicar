@@ -148,11 +148,16 @@ La tercera nota tiene un peso de 30%
 
 #Solución
 
-nota1 = float(input("Ingrese la primera nota de la evaluación"))
-nota2 = float(input("Ingrese la segunda nota de la evaluación"))
-nota3 = float(input("Ingrese la tercer nota de la evaluación"))
+nota1 = float(input("Ingrese la primera nota de la evaluación: "))
+nota2 = float(input("Ingrese la segunda nota de la evaluación: "))
+nota3 = float(input("Ingrese la tercer nota de la evaluación: "))
+
+nota_final = (nota1 * 0.25) + (nota2 * 0.45) + (nota3 * 0.3)
+
+print(f"Su nota final será {round(nota_final,1)}")
 
 """
+
 
 """
 #Ejercicio_9
