@@ -187,7 +187,21 @@ La nota del trabajo final tiene un peso de 15%.
 Hallar la calificación final de todas notas10.
 
 #Solución
+
+nota1 = float(input("Ingrese la primera nota de la evaluación: "))
+nota2 = float(input("Ingrese la segunda nota de la evaluación: "))
+nota3 = float(input("Ingrese la tercer nota de la evaluación: "))
+notaExamenFinal = float(input("Ingrese la nota de la evaluación final: "))
+notaTrabajoFinal = float(input("Ingrese la nota del trabajo final: "))
+
+calificacion = ((nota1 + nota2 + nota3) / 3)* 0.55
+calificacion += (notaExamenFinal * 0.3) 
+calificacion += (notaTrabajoFinal * 0.15) 
+
+print(f"Su calificación final será de {round(calificacion,2)}")
+
 """
+
 
 """
 #Ejercicio_11
