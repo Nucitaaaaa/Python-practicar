@@ -1,4 +1,4 @@
-
+"""
 #Ejercicio_Explicación_Funciones
 
 
@@ -54,6 +54,7 @@ def mult(x): #Se define una función con un parametro el cual representa un nume
 doble, triple = mult(5) #Se declaran 2 variables las cuales tienen como valor el resultado de la ejecución de la función
 print(doble, triple) #Se hace un print del valor de las dos variables 
 
+"""
 
 
 
@@ -67,16 +68,6 @@ print(doble, triple) #Se hace un print del valor de las dos variables
 
 
 
-
-
-
-def suma(a, b):
-    resultado = a + b
-    resultado2= b + a 
-    return resultado
-
-resultado_suma = suma(3, 4)
-print(resultado_suma)
 
 
 
