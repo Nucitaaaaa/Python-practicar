@@ -15,11 +15,16 @@ nombre() #Se llama la función
 num1 = int(input("Ingrese el primer numero: ")) #Se declara la primera variable en la que se almacenará un numero entero 
 num2 = int(input("Ingrese el primer numero: ")) #Se declara la segunda variable en la que se almacenará un numero entero 
 
-def calc (suma,resta,mult,divi): #Se define la función con 4 parametros que representan las 4 operaciónes basicas
+def calc (num1,num2): #Se define la función con 2 parametros que representan los 2 numeros a operar
     
-    print(f"Suma = {suma}, Resta = {resta}, Multiplicación = {mult}, División = {divi}") #Se le da la instrucción de qué debe hacer cuando se llame la función 
+    suma = num1 + num2 
+    resta = num1 - num2 
+    mult = num1 * num2
+    divi = num1 / num2 
 
-calc (num1 + num2, num1 - num2, num1 * num2, round(num1 / num2,2)) #Se llama la función con lor argumentos que adquiere cada parametro 
+    print(f"Suma = {suma}, Resta = {resta}, Multiplicación = {mult}, División = {round(divi,2)}") #Se le da la instrucción de qué debe hacer cuando se llame la función 
+
+calc (num1,num2) #Se llama la función con lor argumentos que adquiere cada parametro 
 
 
 #Con_Parametros2
