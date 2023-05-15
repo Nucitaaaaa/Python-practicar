@@ -22,6 +22,13 @@ calc (num1 + num2, num1 - num2, num1 * num2, round(num1 / num2,2)) #Se llama la 
 
 #Con_Parametros2
 
+def message(pais = "colombia", ciudad = "Ibagué"): #Se define la función con dos parametros los cuales tienen valores por defecto 
+    print(f"Tu pais es {pais} tu ciudad es {ciudad}") #Se le da la instrucción de qué debe hacer cuando se llame la función 
+
+message() #Se llama la función sin argumentos 
+message("inglaterra") #Se llama la función con 1 argumento 
+message("Mexico","Guadalajara") #Se llama la función con 2 argumentos 
+
 
 #return
 
@@ -42,7 +49,7 @@ def mult(x): #Se define una función con un parametro el cual representa un nume
     d = x * 2  #Se le da la instrucción de qué debe hacer cuando se llame la función 
     t = x * 3 
     return d, t 
-doble, triple = mult(3) #Se declaran 2 variables las cuales tienen como valor el resultado de la ejecución de la función
+doble, triple = mult(5) #Se declaran 2 variables las cuales tienen como valor el resultado de la ejecución de la función
 print(doble, triple) #Se hace un print del valor de las dos variables 
 
 
