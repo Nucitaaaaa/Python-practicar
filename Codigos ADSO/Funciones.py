@@ -1,6 +1,7 @@
 
 #Ejercicio_Explicación_Funciones
 
+
 #Sin_Parametros
 
 def nombre(): #Se define el nombre de la función
@@ -19,6 +20,7 @@ def calc (suma,resta,mult,divi): #Se define la función con 4 parametros que rep
     print(f"Suma = {suma}, Resta = {resta}, Multiplicación = {mult}, División = {divi}") #Se le da la instrucción de qué debe hacer cuando se llame la función 
 
 calc (num1 + num2, num1 - num2, num1 * num2, round(num1 / num2,2)) #Se llama la función con lor argumentos que adquiere cada parametro 
+
 
 #Con_Parametros2
 
