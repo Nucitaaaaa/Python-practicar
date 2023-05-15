@@ -36,6 +36,14 @@ resultado = es_par(numero)
 print(resultado)
 
 """
+#return2
+
+def cuadrado(numero):
+    cuadrado = numero ** 2
+    return cuadrado
+
+resultado = cuadrado(5)
+print(resultado)
 
 
 
