@@ -94,6 +94,13 @@ def operaciones (num1,num2):
 
 operaciones(num1=int(input("Ingrese el primer numero: ")), num2=int(input("Ingrese el segundo numero: ")))
 """
+""""""
+def xd(a,b,c):
+    print(f"{a},{b},{c},{a+b+c}")
+xd (3,9,1)
+xd (4,8,2)
+xd (9,5,7)
+
 
 
 
