@@ -64,10 +64,36 @@ print(doble, triple) #Se hace un print del valor de las dos variables
 
 
 
+"""
+def lastname():
+    lastname = input("My lastname is: ")
+lastname()
+"""
 
+"""
+def mensaje():
+    print("Camaron que se duerme....")
+    global b
+    b = input()
 
+def camaron (a , b):
+    if b == "se lo lleva la corriente" or b == "SE LO LLEVA LA CORRIENTE":
+        print("¡bien!")
+    else:
+        print("asi no es xddd")
 
+mensaje()    
+camaron (a = "camaron que se duerme" ,b = b)
+"""
 
+"""
+def operaciones (num1,num2):
+    div = num1 // num2
+    mod = num1 % num2
+    print(f"El resultado de la división es {div} y de el residuo es {round(mod)}")
+
+operaciones(num1=int(input("Ingrese el primer numero: ")), num2=int(input("Ingrese el segundo numero: ")))
+"""
 
 
 
