@@ -1,4 +1,4 @@
-"""
+
 #Ejercicio_Explicación_Funciones
 
 
@@ -13,7 +13,7 @@ nombre() #Se llama la función
 #Con_Parametros
 
 num1 = int(input("Ingrese el primer numero: ")) #Se declara la primera variable en la que se almacenará un numero entero 
-num2 = int(input("Ingrese el primer numero: ")) #Se declara la segunda variable en la que se almacenará un numero entero 
+num2 = int(input("Ingrese el segundo numero: ")) #Se declara la segunda variable en la que se almacenará un numero entero 
 
 def calc (num1,num2): #Se define la función con 2 parametros que representan los 2 numeros a operar
     
@@ -58,8 +58,9 @@ def mult(x): #Se define una función con un parametro el cual representa un nume
     return d, t 
 doble, triple = mult(5) #Se declaran 2 variables las cuales tienen como valor el resultado de la ejecución de la función
 print(doble, triple) #Se hace un print del valor de las dos variables 
+#gracias :D, dificil?
 
-"""
+
 
 
 
@@ -93,14 +94,14 @@ def operaciones (num1,num2):
     print(f"El resultado de la división es {div} y de el residuo es {round(mod)}")
 
 operaciones(num1=int(input("Ingrese el primer numero: ")), num2=int(input("Ingrese el segundo numero: ")))
-"""
-""""""
+
+
 def xd(a,b,c):
     print(f"{a},{b},{c},{a+b+c}")
 xd (3,9,1)
 xd (4,8,2)
 xd (9,5,7)
-
+"""
 
 
 try:
