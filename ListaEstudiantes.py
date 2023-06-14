@@ -22,14 +22,16 @@ while menu == True:
             print("No hay estudiantes")
 
     elif elec == 3:
+        found = 0
         docu = int(input("\nIngrese el documento del estudiante a eliminar: "))
         for i in range(0,len(listaEstudiantes),3):
             if listaEstudiantes[i+2] == docu:
+                found = 1
                 listaEstudiantes.pop(i)
                 listaEstudiantes.pop(i)
                 listaEstudiantes.pop(i)
-            else:
-                print("El estudiante no se encuentra")
+        if found == 0:
+            print("No encontrado")
 
     elif elec == 9:
         break 
